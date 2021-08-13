@@ -18,21 +18,22 @@ html, body {
 mat-dialog-container {
     position: fixed;
     top: 10%;
-    left: 10%;
+    left: 20%;
     justify-content: center;
     width: auto;
     max-width: 60%;
-    max-height: 60% !important;
+    max-height: 70% !important;
     z-index: 100 ;
     margin: 0%;
     background-color: #FFFFFF;
     padding: 2%;
+    align-self: center;
 
 }
 
 @media (max-width: 864px) {
-    mat-dialog-container{
-
+    mat-dialog-container{   
+        left: 10%;
         max-width: 80% !important;
         max-height: 85% !important;
 
