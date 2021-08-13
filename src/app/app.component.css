@@ -1,0 +1,9 @@
+* {
+    font-family: Montserrat;
+  }
+#mainPage {
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+
+}

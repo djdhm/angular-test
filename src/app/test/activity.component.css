@@ -1,0 +1,48 @@
+:host {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+    padding: 0px;
+    flex : 2 2 40%;
+}  
+
+div {
+    flex : 50%;
+    max-height: 130px;
+    max-width: 130px;
+    min-width: 130px;
+    min-height: 130px;
+    display: flex;
+    align-items: center; justify-content: center; flex-direction: column; 
+    border: var(--test-border-color)  8px solid;
+    border-radius: 50%;
+    background: linear-gradient(#732589, #2F3487);
+
+}
+div:hover{
+    border:lightcoral 8px solid;
+}
+img {
+    max-width:50%;
+    max-height:50%;
+    flex: 50%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+
+@media (max-width: 576px) {
+    :host{
+        flex: 2 1 80%;
+        margin:1em;
+    }
+    div {
+        max-height: 100px;
+        max-width: 100px;
+        min-width: 100px;
+        min-height: 100px;
+        padding: 0px;
+    }
+  }
+  

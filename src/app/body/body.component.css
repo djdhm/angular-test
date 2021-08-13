@@ -1,0 +1,18 @@
+:host {
+    height: 100%;
+    width: 100%;
+    min-height: 60vh;
+    min-width: 200px;
+    background: linear-gradient(#0B0B18, #43426D);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+
+div {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

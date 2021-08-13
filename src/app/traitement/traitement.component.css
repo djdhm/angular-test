@@ -1,0 +1,38 @@
+:host{
+    min-width: 60%;
+    padding-left: 10vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    column-count: 2;
+    background-color: #38365B;
+    min-width: 100%;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 0%;
+    padding: 1vh;
+    padding: 1vh;
+    padding: 1vh;
+    align-items: flex-start;
+}
+img {
+    width: 3vh;
+    height: 3vh;
+}
+
+span {
+    align-self: flex-end;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 98%
+}
+span {
+    color:gray;
+    
+}

@@ -1,0 +1,18 @@
+img {
+    max-width: 40px;
+    max-width: 40px;
+    filter: invert(100%); 
+
+}
+
+table {
+    width: 60vh;
+}
+
+button {
+    margin-top: 6%;
+    width: 18%;
+    min-width: 200px;
+    font-family: "MontSerrat;Bold !important";
+    font-size: xx-large;    
+}

@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("MontSerrat"), url(./assets/fonts/Montserrat/Montserrat-ExtraBold.ttf) format("truetype");
+}
+html, body {
+    height: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 376px;
+    font-family: "MontSerrat !important";
+    --test-border-color: #9FD5F2;
+}
+
+mat-dialog-container {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    justify-content: center;
+    width: auto;
+    max-width: 60%;
+    max-height: 60% !important;
+    z-index: 100 ;
+    margin: 0%;
+    background-color: #FFFFFF;
+    padding: 2%;
+
+}
+
+@media (max-width: 864px) {
+    mat-dialog-container{
+
+        max-width: 80% !important;
+        max-height: 85% !important;
+
+    }
+    table {
+        min-width: 100%;
+    }
+ 
+  }
+  
+
+@media (max-width: 576px) {
+    mat-dialog-container{
+        top: 0%;
+        left:0%;
+        margin: 2%;
+        max-width: 96% !important;
+        max-height: 96% !important;
+
+    }
+    table {
+        min-width: 100%;
+    }
+ 
+  }
+  
+
+
+html, body { height: 100%; }
+* { font-family: MontSerrat, "Regular", sans-serif !important; }

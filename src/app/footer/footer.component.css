@@ -1,0 +1,16 @@
+:host {
+    width: 100%;
+    background-color: #4C4A7A;
+    height: 25vh;
+    color: white;
+    text-align: center;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+div::-webkit-scrollbar {
+    display: none;
+  }
+div {
+    display: flex;
+    overflow-x: scroll;
+}
